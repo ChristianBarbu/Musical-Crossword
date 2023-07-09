@@ -13,7 +13,7 @@ public class WordChecker : MonoBehaviour
 
     public ReactiveProperty<char[]> currentString;
 
-    private void Start()
+    private void Awake()
     {
         int wordLength = correctWord.Length;
         currentString = new ReactiveProperty<char[]>(new char[wordLength]);

@@ -10,7 +10,7 @@ public class InputFieldsManager : MonoBehaviour
 {
     public List<JumpInputField> jumpInputFields;
 
-    private void Awake()
+    private void Start()
     {
         foreach (var jumpInputField in jumpInputFields)
         {
