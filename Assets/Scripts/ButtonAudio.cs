@@ -1,18 +1,19 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ButtonAudio : MonoBehaviour
 {
     public Button playButton;
-    public bool audioCurrentlyPlaying;
-
-    public AudioSource audioSource;
+    
 
     public AudioClipList audioClipList;
 
     [Range(0, 4)] public int audioClipID;
-    
+    public AudioSource audioSource;
+    public AudioManager audioManager;
+
+    public bool audioCurrentlyPlaying;
+
     private void Start()
     {
         audioCurrentlyPlaying = false;
