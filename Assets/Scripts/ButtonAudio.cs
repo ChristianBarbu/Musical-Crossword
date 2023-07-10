@@ -8,7 +8,7 @@ public class ButtonAudio : MonoBehaviour
 
     public AudioClipList audioClipList;
 
-    [Range(0, 4)] public int audioClipID;
+    [Range(0, 12)] public int audioClipID;
     public AudioSource audioSource;
     public AudioManager audioManager;
 
