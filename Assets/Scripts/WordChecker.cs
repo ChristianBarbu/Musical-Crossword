@@ -31,7 +31,7 @@ public class WordChecker : MonoBehaviour
         {
             // when current string changes, check if it corresponds to the correctWord and change the color
             // also make the other input fields non-interactable
-            if (new string(currentString) == correctWord)
+            if (String.Equals(new string(currentString), correctWord, StringComparison.InvariantCultureIgnoreCase))
             {
                 foreach (var singleInput in singleInputList.inputFields)
                 {

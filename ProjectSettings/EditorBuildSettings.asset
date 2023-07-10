@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CrosswordScene.unity
     guid: c0bb097c58254854cad30f8581f32998
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 8e3aa32bfdb3c5c4285d74f6f7491e31, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 480dfca0a68b14544a9f9062118901aa, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 71a6eedcfc98be340907766333819191, type: 2}
